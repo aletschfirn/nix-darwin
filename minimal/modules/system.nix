@@ -26,7 +26,8 @@
     };
   };
 
-  # Add ability to used TouchID for sudo authentication
+  time.timeZone = "Europe/Moscow";
+
   security.pam.enableSudoTouchIdAuth = false; # i dont have touchid
 
   # Create /etc/zshrc that loads the nix-darwin environment.
