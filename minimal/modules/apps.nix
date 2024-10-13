@@ -21,8 +21,8 @@
       "helix"
     ];
 
-    casks = [
-      "telegram" "figma" "iterm2" "foobar2000" "qbittorrent" "anki" "git-credential-manager"
-    ];
+    # casks = [
+    #   "telegram" "figma" "iterm2" "foobar2000" "qbittorrent" "anki" "git-credential-manager"
+    # ];
   };
 }
