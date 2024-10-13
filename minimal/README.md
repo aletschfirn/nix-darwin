@@ -47,16 +47,3 @@ Your current nix-darwin configuration's structure should be as follows:
 │   └── system.nix      # defines your macOS's system configuration(like dock, trackpad, keyboard, finder, loginwindow, etc.)
 └── README.md
 ```
-
-
-## Notes on Network Proxy
-
-If you are in a network environment that requires proxy(such as China), you may need to set up proxy for nix and homebrew.
-
-Please refer to the `rich-demo` folder for more details:
-
-- [rich-demo/scripts/darwin_set_proxy.py](/rich-demo/scripts/darwin_set_proxy.py)
-- [rich-demo/Makefile](/rich-demo/Makefile)
-- [rich-demo - homebrew's mirror settings](/rich-demo/modules/homebrew-mirror.nix)
-
-
