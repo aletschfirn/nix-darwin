@@ -19,7 +19,7 @@
     '';
 
     defaults = {
-      menuExtraClock.Show24Hour = true;  # show 24 hour clock
+      menuExtraClock.Show24Hour = false;  # who uses it 24h clock??
 
       # other macOS's defaults configuration.
       # ......
@@ -27,7 +27,7 @@
   };
 
   # Add ability to used TouchID for sudo authentication
-  security.pam.enableSudoTouchIdAuth = true;
+  security.pam.enableSudoTouchIdAuth = false; # i dont have touchid
 
   # Create /etc/zshrc that loads the nix-darwin environment.
   # this is required if you want to use darwin's default shell - zsh
