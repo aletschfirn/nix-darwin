@@ -22,7 +22,7 @@
     ];
 
     casks = [
-      "telegram", "figma", "iterm2", "foobar2000", "qbittorrent", "anki", "git-credential-manager"
+      "telegram" "figma" "iterm2" "foobar2000" "qbittorrent" "anki" "git-credential-manager"
     ];
   };
 }
